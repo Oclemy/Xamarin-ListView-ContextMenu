@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:src="@drawable/fruits"
+        android:layout_width="300dp"
+        android:layout_height="150dp"
+        android:id="@+id/tvshowImg"
+        android:layout_marginRight="0.0dp"
+        android:padding="15dp" />
+    <TextView
+        android:text="Name"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="243.5dp"
+        android:layout_height="90dp"
+        android:padding="10dp"
+        android:id="@+id/nameTxt"
+        android:textColor="#000"
+        android:layout_marginLeft="40.0dp" />
+</LinearLayout>
